@@ -26,16 +26,23 @@ const booksData = [
 
 
 export default function list() {
-    const Books = booksData.map(book=>{
-        const booksText = `${book.title}  - ${book.price}`
-        return <li>{booksText}</li>
-    })
-
+    
   return (
-    <div className='bg-slate-500 text-white'>  
-       <ul className='flex flex-col justify-center items-center mt-10 font-semibold'>
-         {Books}
-       </ul>
+    <div>
+      {booksData.map((book)=>{
+        
+        return (
+          <div key={book.id} className='w-1/2 flex flex-col justify-center'> 
+            <ul  className='bg-neutral-600 text-white m-2 text-xl'>
+            <li >
+              <h3 className='text-2xl text-semibold'>{book.title}</h3>
+              <p>{book.Description}</p>
+              <p>{book.price}</p>
+            </li>
+          </ul>
+          </div>
+        )
+      })}
     </div>
   )
 }

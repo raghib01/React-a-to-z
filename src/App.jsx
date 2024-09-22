@@ -4,7 +4,9 @@ import React from 'react'
 // import NestedMapping from './Components/ListMap/NestedMapping'
 // import ClassCompnents from './Components/ClassComponents/Class'
 // import State from './Components/State/State'
-import ConditinalRendering from './Components/ConditionalRendering/index'
+// import ConditinalRendering from './Components/ConditionalRendering/index'
+import EventHandlingWithClass from './Components/EventHandling/EventClass/EventHandlerC'
+
 function App() {
   return (
     <>
@@ -13,10 +15,12 @@ function App() {
     <BasicAddFile />
     <NestedMapping />
     <ClassCompnents name=" React functional components"/>
-    <State /> 
+    <State />
+    <ConditinalRendering /> 
     */}
 
-    <ConditinalRendering />
+    <EventHandlingWithClass /> 
+   
 
       
     </>

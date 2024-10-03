@@ -6,7 +6,8 @@ export default function Hooks() {
   const [count, setCount] = useState(0);
 
  const handleInc = () => {
-    setCount(count + 1);  //not effective way to handle
+    setCount(count + 1) // 1 + 1 = 1
+    //not effective way to handle
   }
  const handleDec = () => {
     setCount(count - 1)

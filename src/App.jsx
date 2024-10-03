@@ -6,7 +6,9 @@ import React from 'react'
 // import State from './Components/State/State'
 // import ConditinalRendering from './Components/ConditionalRendering/index'
 // import EventHandlingWithClass from './Components/EventHandling/EventClass/EventHandlerC'
-import Hooks from './Components/Hooks_Usestate/Hooks'
+// import Hooks from './Components/Hooks_Usestate/Hooks'
+// import Update_State from './Components/Hooks_Usestate/Update_State'
+   import Bubbling from './Components/Hooks_Usestate/event_Bubbling'
 
 function App() {
   return (
@@ -19,9 +21,11 @@ function App() {
     <State />
     <ConditinalRendering /> 
     <EventHandlingWithClass /> 
+    <Hooks />
+    <Update_State />
     */}
 
-    <Hooks />
+    <Bubbling />
 
     </>
     

@@ -19,7 +19,7 @@ handleDecrement = () => {
         count: this.state.count - 1
     })
 }
-  render() {
+render() {
     const {count} = this.state;
     return (
         <div className=' w-[250px] h-[250px] m-auto '>
@@ -28,9 +28,7 @@ handleDecrement = () => {
             <button className='p-3 bg-black text-white border-r-2 ' onClick={this.handleIncrement}> Increment</button>
             <button className='p-3 bg-black text-white border-r-2' onClick={this.handleDecrement}> Increment</button>
             </div>
-            
         </div>
-      
     )
   }
 }

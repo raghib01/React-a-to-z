@@ -29,6 +29,7 @@ export default function list() {
     
   return (
     <div>
+    <h1 className='text-3xl font-bold text-black m-5 text-center'>Mapping inside file  List</h1>
       {booksData.map((book)=>{
         
         return (

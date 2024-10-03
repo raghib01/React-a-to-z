@@ -5,7 +5,8 @@ import React from 'react'
 // import ClassCompnents from './Components/ClassComponents/Class'
 // import State from './Components/State/State'
 // import ConditinalRendering from './Components/ConditionalRendering/index'
-import EventHandlingWithClass from './Components/EventHandling/EventClass/EventHandlerC'
+// import EventHandlingWithClass from './Components/EventHandling/EventClass/EventHandlerC'
+import Hooks from './Components/Hooks_Usestate/Hooks'
 
 function App() {
   return (
@@ -17,12 +18,11 @@ function App() {
     <ClassCompnents name=" React functional components"/>
     <State />
     <ConditinalRendering /> 
+    <EventHandlingWithClass /> 
     */}
 
-    <EventHandlingWithClass /> 
-   
+    <Hooks />
 
-      
     </>
     
   )

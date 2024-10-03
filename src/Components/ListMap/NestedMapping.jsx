@@ -37,9 +37,11 @@ const Users = [
         },
         phone: [
             {
+                id:1,
                 home: '01715951768'  
             },
             {
+                id:2,
                 work: '01987291872'
             },
         ],
@@ -60,9 +62,8 @@ export default function NestedMapping() {
                     <p>Email: {User.email}</p>
                     <p> address : {User.address.city}</p>
                     {
-                        User.phone.map((userPhone, number)=> 
-                            
-                            <div key={number}>
+                        User.phone.map((userPhone, id)=> 
+                            <div key={id}>
                             <p>Home: {userPhone.home}</p> 
                             <p>Work: {userPhone.work}</p>
                             </div>

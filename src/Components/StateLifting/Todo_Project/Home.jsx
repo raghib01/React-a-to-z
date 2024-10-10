@@ -16,7 +16,6 @@ function home() {
 
   return (
     <div>
-      <p>home page...</p>
       <InputTodo onInputTodos={handleInputTodos}/>
       <Todos todos = {todos} />
       </div>

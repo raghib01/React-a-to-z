@@ -8,7 +8,9 @@ import React from 'react'
 // import EventHandlingWithClass from './Components/EventHandling/EventClass/EventHandlerC'
 // import Hooks from './Components/Hooks_Usestate/Hooks'
 // import Update_State from './Components/Hooks_Usestate/Update_State'
-   import Bubbling from './Components/Hooks_Usestate/event_Bubbling'
+// import Bubbling from './Components/Hooks_Usestate/event_Bubbling'
+// import { Parents } from './Components/StateLifting/PassingMethods/Parents'
+import Home from './Components/StateLifting/Todo_Project/Home'
 
 function App() {
   return (
@@ -23,10 +25,11 @@ function App() {
     <EventHandlingWithClass /> 
     <Hooks />
     <Update_State />
-    */}
-
     <Bubbling />
+    <Parents /> /* StateLifting example */
+    }
 
+    <Home />
     </>
     
   )
